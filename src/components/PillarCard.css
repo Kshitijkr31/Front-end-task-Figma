@@ -1,0 +1,114 @@
+.pillar-card {
+  width: 493px;
+  height: 485px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd; /* Optional: border around the card */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow */
+}
+
+.card-upper {
+  height: 320px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.card-image {
+  width: 100%;
+  height: 100%; /* Ensures image covers the upper part */
+  object-fit: cover; /* Ensures image covers the area without distortion */
+}
+
+.card-lower {
+  padding: 20px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 400;
+  line-height: 45px;
+  background: #e5dbdb;
+  color: #3e1c1c;
+}
+
+.card-lower h4 {
+  font-family: Inter, sans-serif; /* Font family */
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 26.6px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.card-lower p {
+  margin: 0; /* Remove default margin */
+}
+
+
+@media (max-width: 768px) {
+
+  .pillar-card {
+    width: 368px;
+        height: 458px;
+        background-color: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd; /* Optional: border around the card */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow */
+  }
+  
+  .card-upper {
+    height: 320px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 94vw;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%; /* Ensures image covers the upper part */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+  }
+  
+  .card-lower {
+    padding: 20px;
+    font-family: Inter, sans-serif; /* Font family */
+    font-size: 16px;
+    border-radius: 15px;
+    color: white; /* Text color */
+    font-weight: 400;
+    line-height: 24px;
+    background: #e5dbdb;
+    color: #3e1c1c;
+    width: 94vw;
+  }
+  
+  .card-lower h4 {
+    font-family: Inter, sans-serif; /* Font family */
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 26.6px;
+    color: black;
+    margin-bottom: 10px;
+    
+  }
+  
+  .card-lower p {
+    margin: 0; /* Remove default margin */
+  }
+  
+
+}

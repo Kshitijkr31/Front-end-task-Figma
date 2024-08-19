@@ -1,0 +1,13 @@
+@import './components/Navbar.scss';
+@import './components/AppointmentSection.scss';
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  width: 1280px;
+  margin: auto;
+}
